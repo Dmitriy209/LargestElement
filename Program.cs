@@ -15,7 +15,7 @@ namespace LargestElement
             int lowLimitRandom = 1;
             int highLimitRandom = 9;
 
-            int maxNumber = 0;
+            int maxNumber = int.MinValue;
 
             int[,] array = new int[10, 10];
 
